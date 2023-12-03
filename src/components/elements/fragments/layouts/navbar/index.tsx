@@ -1,10 +1,12 @@
+import styles from './navbar.module.css';
+
 const NavbarComponent = () => {
    return (
-      <div className='navbar'>
+      <div className={styles.navbar}>
          <div className='navbar__logo'>
             <p>LOGO</p>
          </div>
-         <div className='navbar__menu'>
+         <div className={styles.navbar__menu}>
             <ul>
                <li>
                   <a href='#'>Home</a>
